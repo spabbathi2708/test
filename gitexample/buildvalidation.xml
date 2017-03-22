@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="automation">
+	<test name="smoke test">
+	<parameter name="userID" value="sadhana.honey@gmail.com" />
+	<parameter name="password" value="@Nusha13" />
+		<classes>
+			<class name="datadriven.FacebookExample"/>
+		</classes>
+
+	</test>
+</suite>

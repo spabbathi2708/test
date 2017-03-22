@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="13261" started-at="2017-03-01T20:13:01Z" finished-at="2017-03-01T20:13:14Z">
+    <groups>
+    </groups>
+    <test name="smoke test" duration-ms="13261" started-at="2017-03-01T20:13:01Z" finished-at="2017-03-01T20:13:14Z">
+      <class name="framework.PriorityAnnotation">
+        <test-method status="PASS" signature="cardPayment()[pri:0, instance:framework.PriorityAnnotation@68c4039c]" name="cardPayment" duration-ms="15" started-at="2017-03-01T14:13:01Z" finished-at="2017-03-01T14:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardPayment -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:framework.PriorityAnnotation@68c4039c]" name="flightBooking" duration-ms="13221" started-at="2017-03-01T14:13:01Z" finished-at="2017-03-01T14:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:framework.PriorityAnnotation@68c4039c]" name="invokeBrowser" duration-ms="4" started-at="2017-03-01T14:13:14Z" finished-at="2017-03-01T14:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="payment()[pri:0, instance:framework.PriorityAnnotation@68c4039c]" name="payment" duration-ms="0" started-at="2017-03-01T14:13:14Z" finished-at="2017-03-01T14:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- framework.PriorityAnnotation -->
+    </test> <!-- smoke test -->
+  </suite> <!-- suite1 -->
+</testng-results>
